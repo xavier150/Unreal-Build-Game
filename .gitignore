@@ -1,17 +1,45 @@
-# Unreal Engine generated files
-Binaries/
-DerivedDataCache/
-Intermediate/
-Saved/
+# Project Details
+tests
 
-# IDE files
-.vs/
-.vscode/
-*.sln
-*.suo
-*.user
-*.xcodeproj/
-*.xcworkspace/
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
 
-# Build artifacts
-*.log
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging and build outputs
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Test and coverage reports
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Type-checker and linter caches
+.mypy_cache/
+.dmypy.json
+.pyre/
+.ruff_cache/
+.hypothesis/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system files
+.idea/
+.DS_Store
+Thumbs.db
