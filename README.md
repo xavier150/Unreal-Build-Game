@@ -36,3 +36,10 @@ F:\MMVS_GameBuilds\
 ```
 
 ![Exported build files](https://github.com/xavier150/Unreal-Build-Game/wiki/images/exported-build-files.png)
+
+## Additional Notes
+
+You can join my Discord server for more information or if you need help.  
+
+Discord [<img src="https://github.com/xavier150/Unreal-Build-Game/wiki/images/socials/discord_symbol_blurple.png" alt="Discord Icon" width="auto" height="12">](https://discord.gg/XuYeGCFtxa) ->
+[BleuRaven side projects](https://discord.gg/XuYeGCFtxa)  
