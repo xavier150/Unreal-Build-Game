@@ -1,6 +1,8 @@
 # Unreal-Build-Game
 
-My own tool for building an Unreal Engine project, used for MMVS.
+An automated build tool for Unreal Engine projects. It lets you configure and run client and server builds for different platforms and build modes, then organizes the output and creates ZIP packages.
+
+> **Note:** The build settings and project paths are currently hardcoded and configured for development of the [MMVS video game](https://github.com/xavier150/MMVS). A command-line interface using a JSON configuration file is planned for a future update.
 
 ![MMVS UAT build configuration menu](https://github.com/xavier150/Unreal-Build-Game/wiki/images/mmvs-uat-menu.png)
 
