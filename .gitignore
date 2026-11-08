@@ -1,0 +1,17 @@
+# Unreal Engine generated files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# IDE files
+.vs/
+.vscode/
+*.sln
+*.suo
+*.user
+*.xcodeproj/
+*.xcworkspace/
+
+# Build artifacts
+*.log
