@@ -32,3 +32,5 @@ F:\MMVS_GameBuilds\
 └── UAT_LOGS\
     └── ...
 ```
+
+![Exported build files](https://github.com/xavier150/Unreal-Build-Game/wiki/images/exported-build-files.png)
