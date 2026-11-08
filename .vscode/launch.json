@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Lib Auto Update",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/launch_mmvs_builder.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}
