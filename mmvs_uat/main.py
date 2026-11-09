@@ -15,7 +15,8 @@ from . import run_builded_package
 from . import brut_force_project_rebuild
 from . import console_ui
 from . import build_config_type
-from .build_config_type import RawBuildConfigStruct, BuildTargetEnum
+from .build_config_type import RawBuildConfigStruct
+from .build_types import BuildTargetEnum
 from . import project_version_utils
 from . import additional_build_files
 from . import build_config_manager

@@ -17,12 +17,10 @@ def get_base_config_data() -> Dict[str, List[str]]:
 
     all_keys: List[str] = []
     for is_server in [True, False]:
-        for target_platform in BuildPlatformEnum:
-            if target_platform.value != BuildPlatformEnum.INVALID.value:
-                for build_config in BuildModeEnum:
-                    if build_config.value != BuildModeEnum.UNKNOWN.value:
-                        key: str = utils.get_config_key(is_server, target_platform, build_config)
-                        all_keys.append(key)
+        for target_platform in BuildPlatformEnum.get_all_valid_platforms():
+            for build_config in BuildModeEnum.get_all_valid_configs():
+                key: str = utils.get_config_key(is_server, target_platform, build_config)
+                all_keys.append(key)
 
     # Key and folder with data to add
     data: Dict[str, List[str]] = {}
